@@ -53,8 +53,8 @@ void ExampleA(int iPhase=1)
     
     grSpikeAnalog->Draw("AL");
     grSignalAnalog->Draw("L");
-    grSpikeDigital->Draw("P");
-    grSignalDigital->Draw("P");
+    grSpikeDigital->Draw("*");
+    grSignalDigital->Draw("*");
 }
 
 
